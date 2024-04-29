@@ -1,0 +1,22 @@
+{
+    "LambdaFunctions": [
+       
+       
+        {
+            "touchpoint": "REMINDER_EVENT", "url" :"http://localhost:3000/src/handler.sendReminderEvent","description":"Send reminders to members enrolled with OXBH who have not accessed the member portal within the last 45 days"
+        },
+
+        {
+            "touchpoint": "REMINDER_CHRONIC_SCREENINGS", "url" :"http://localhost:3000/src/handler.sendReminderChronicScreenings", "description":"Initiate a reminder to members 60 days after the commencement of a chronic episode"
+        }
+    ],
+
+    "LambdaDescriptions": [
+        "REMINDER_CHRONIC_SCREENINGS : Initiate a reminder to members 60 days after the commencement of a chronic episode",
+    
+        "REMINDER_EVENT : Send reminders to members enrolled with OXBH who have not accessed the member portal within the last 45 days"
+       
+    
+]
+}
+
